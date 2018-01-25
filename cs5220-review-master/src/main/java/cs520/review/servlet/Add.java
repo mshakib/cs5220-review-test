@@ -35,7 +35,7 @@ public class Add extends javax.servlet.http.HttpServlet implements
         PrintWriter out = response.getWriter();
         out.println( "<html><head><title>Add</title></head><body>" );
 
-        out.println( "<p>The SUM OF  " + a + " and " + b + " is "
+        out.println( "<p>the sum of  " + a + " and " + b + " is "
             + (Integer.parseInt( a ) + Integer.parseInt( b )) + ".</p>" );
 
         out.println( "</body></html>" );
